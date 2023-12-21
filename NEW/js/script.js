@@ -127,4 +127,9 @@ var swiper = new Swiper(".review-slider", {
       },
     },
   });
-  
+
+
+function redirectToWebXRPage(imageName) {
+        // Redirect to your WebXR page with the specified image name as a query parameter
+        window.location.href = 'https://https://umagayathri-25.github.io/web-xr/?image=' + encodeURIComponent(imageName);
+    }
